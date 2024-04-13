@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from NOBITAMUSIC import YouTube, app
-from NOBITAMUSIC.core.call import DAXX
+from NOBITAMUSIC.core.call import NOBITA
 from NOBITAMUSIC.misc import SUDOERS, db
 from NOBITAMUSIC.utils.database import (
     get_active_chats,
