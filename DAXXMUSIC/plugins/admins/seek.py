@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils import AdminRightsCheck, seconds_to_min
-from DAXXMUSIC.utils.inline import close_markup
+from NOBITAMUSIC import YouTube, app
+from NOBITAMUSIC.core.call import NOBITA
+from NOBITAMUSIC.misc import db
+from NOBITAMUSIC.utils import AdminRightsCheck, seconds_to_min
+from NOBITAMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
