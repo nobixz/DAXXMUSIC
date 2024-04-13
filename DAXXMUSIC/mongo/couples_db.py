@@ -1,4 +1,4 @@
-from NONiAMUSIC.utils.mongo import db
+from NOBITAMUSIC.utils.mongo import db
 
 coupledb = db.couple
 
