@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import db
-from DAXXMUSIC.utils.database import get_loop
-from DAXXMUSIC.utils.decorators import AdminRightsCheck
-from DAXXMUSIC.utils.inline import close_markup, stream_markup
-from DAXXMUSIC.utils.stream.autoclear import auto_clean
-from DAXXMUSIC.utils.thumbnails import get_thumb
+from NOBITAMUSIC import YouTube, app
+from NOBITAMUSIC.core.call import NOBITA
+from NOBITAMUSIC.misc import db
+from NOBITAMUSIC.utils.database import get_loop
+from NOBITAMUSIC.utils.decorators import AdminRightsCheck
+from NOBITAMUSIC.utils.inline import close_markup, stream_markup
+from NOBITAMUSIC.utils.stream.autoclear import auto_clean
+from NOBITAMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
