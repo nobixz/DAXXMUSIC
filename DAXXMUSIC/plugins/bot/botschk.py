@@ -1,14 +1,14 @@
 import random
 from pyrogram import filters
-from DAXXMUSIC import app
-from DAXXMUSIC import *
+from NOBITAMUSIC import app
+from NOBITAMUSIC import *
 from ... import *
 import config
 
 from ...logging import LOGGER
 
-from DAXXMUSIC import app, userbot
-from DAXXMUSIC.core.userbot import *
+from NOBITAMUSIC import app, userbot
+from NOBITAMUSIC.core.userbot import *
 
 import asyncio
 
@@ -19,14 +19,14 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from dotenv import load_dotenv
-from DAXXMUSIC.core.userbot import Userbot
+from NOBITAMUSIC.core.userbot import Userbot
 from datetime import datetime
 
 # Assuming Userbot is defined elsewhere
 userbot = Userbot()
 
 
-BOT_LIST = ["IAM_DAXXBOT", "NexikoBot", "GitWizardBot", "stringseasonrobot", "LivioXBot"]
+BOT_LIST = ["@Sonuy_3_bot", "@Sonuy_2_bot", "@Nonita_spam_bot", "@Sonuy_1_bot", "@Nobi12ca_bot"]
 
 @app.on_message(filters.command("botschk") & filters.user(OWNER_ID))
 async def bots_chk(_, message):
