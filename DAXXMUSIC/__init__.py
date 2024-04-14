@@ -1,8 +1,8 @@
-from DAXXMUSIC.core.bot import DAXX
-from DAXXMUSIC.core.dir import dirr
-from DAXXMUSIC.core.git import git
-from DAXXMUSIC.core.userbot import Userbot
-from DAXXMUSIC.misc import dbb, heroku
+from NOBITAMUSIC.core.bot import NOBIT
+from NOBITAMUSIC.core.dir import dirr
+from NOBITAMUSIC.core.git import git
+from NOBITAMUSIC.core.userbot import Userbot
+from NOBITAMUSIC.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = DAXX()
+app = NOBITA()
 api = SafoneAPI()
 userbot = Userbot()
 
