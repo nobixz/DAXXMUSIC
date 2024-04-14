@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from NOBITAMUSIC import Carbon, YouTube, app
-from NOBITAMUSIC.core.call import DAXX
+from NOBITAMUSIC.core.call import NOBITA 
 from NOBITAMUSIC.misc import db
 from NOBITAMUSIC.utils.database import add_active_video_chat, is_active_chat
 from NOBITAMUSIC.utils.exceptions import AssistantErr
